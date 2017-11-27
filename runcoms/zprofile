@@ -11,7 +11,7 @@ export SSH_AUTH_SOCK="XDG_RUNTIME_DIR.ssh-agent.socket"
 export XKB_DEFAULT_OPTIONS=caps:escape
 export WLC_REPEAT_DELAY=250
 export WLC_REPEAT_RATE=50
-
+eval $( dircolors -b $HOME/.dir_colors)
 #
 # Browser
 #
